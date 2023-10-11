@@ -1,0 +1,21 @@
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+
+// Style dla pliku z przykładem HTML fragmentu
+// @import './example';
+
+// @import "utils/variables.scss";
+// @import "utils/mixins";
+@import './partials/mixins';
+@import './partials/variables';
+@import './partials/common';
+@import './partials/header';
+@import './partials/loader';
+@import './partials/gallery';
+@import './partials/footer';
+@import './partials/modal-movie.scss';
+@import './partials/theme-switch.scss';
+@import './partials/button-loadmore';
+@import './partials/modal-team';
